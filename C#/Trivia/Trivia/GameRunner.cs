@@ -29,6 +29,8 @@ namespace Trivia
                     _notAWinner = aGame.WasCorrectlyAnswered();
                 }
             } while (_notAWinner);
+
+            Console.ReadKey();
         }
     }
 }
